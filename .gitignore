@@ -1,0 +1,7 @@
+__debug_bin*
+
+build/*
+!build/ci
+!build/package
+
+override.*

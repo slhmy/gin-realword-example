@@ -1,0 +1,25 @@
+{
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true
+  },
+  "go.testEnvVars": {
+    "PROJECT_DIR": "${workspaceFolder}",
+    "LOG_FORMAT": "plain"
+  },
+  "go.testFlags": ["-v", "-count=1"],
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "postgres",
+      "username": "postgres",
+      "database": "postgres"
+    }
+  ],
+  "makefile.configureOnOpen": false
+}
