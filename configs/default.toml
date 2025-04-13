@@ -1,0 +1,35 @@
+[log]
+level = "debug"
+
+
+[web]
+port = 8080
+host = "http://localhost:8080"
+frontend_dist = "website/dist"
+
+
+[gorm.database]
+driver = "postgres"
+name = "postgres"
+host = "localhost"
+port = 5432
+username = "postgres"
+password = "postgres"
+ssl_mode = "disable"
+
+
+[redis]
+urls = "localhost:6379"
+
+
+[cache]
+default_duration = "15m"
+jitter_percentage = 0.2
+
+
+[auth]
+login_session.expire_in = "1h"
+
+
+[openrouter]
+model = "deepseek/deepseek-chat-v3-0324:free"
